@@ -4,3 +4,9 @@ terraform.tfstate.*.backup
 .terragrunt-cache
 *.retry
 *.pyc
+
+# Terraform 0.14, for now
+.terraform.lock.hcl
+
+# Kubernetes Alpha Provider
+dev.log
